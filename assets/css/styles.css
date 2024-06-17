@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+body {
+    background-image: url(https://media.istockphoto.com/id/1410270664/photo/modern-style-office-with-exposed-concrete-floor-and-a-lot-of-plants.jpg?s=612x612&w=0&k=20&c=lBivR3vIWH4dnb6MUNkQtQsIisaUEnzl2f6Ozyr-Jis=);
+  background-size: cover;
+}
+.main {
+  border: 2px solid black;
+  margin: 0 auto;
+  margin-top: 5vh;
+  width: 45vw;
+  background-color: white;
+  height: 90vh;
+  font-size: small;
+}
+.paragraph {
+  margin-left: 2vw;
+}
+.media {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2vw;
+}
+.image  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 1vh;
+    width: 55%;
+    background-color: rgb(59,59,59);
+}
+.imges {
+    width: 120px;
+    height: 120px;
+}
+.contacto {
+    border-bottom: 2px solid black;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2vw;
+  margin-right: 30vw;
+  margin-top: .5vh;
+}
+.btn {
+  margin-top: 1vh;
+  margin-left: 2vw;
+  padding: 12px 24px;
+  background-color: blue;
+  color: antiquewhite;
+  border-radius: 10%;
+}
+input {
+  background-color: blue;
+  color: white;
+}
+input#correo {
+  padding: 2vh;
+}
